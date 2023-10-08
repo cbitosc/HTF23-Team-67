@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connex..</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Create Profile</h1>
+        <form action="alumni_details.php" method="POST" enctype="multipart/form-data">
+            <!-- Institution Name -->
+            <div class="form-group">
+                <label for="institutionName">Institution Name</label>
+                <input type="text" class="form-control" id="institutionName" name="iname" required>
+            </div>
+
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" class="form-control" id="fullName" name="fname" required>
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" class="form-control" id="dob" name="dob" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <!-- Graduation Year -->
+            <div class="form-group">
+                <label for="gradYear">Graduation Year</label>
+                <input type="text" class="form-control" id="gradYear" name="gyear" required>
+            </div>
+
+            <!-- Course -->
+            <div class="form-group">
+                <label for="course">Course</label>
+                <input type="text" class="form-control" id="course" name="course" required>
+            </div>
+
+            <!-- Domain -->
+            <div class="form-group">
+                <label for="domain">Domain</label>
+                <input type="text" class="form-control" id="domain" name="major" required>
+            </div>
+
+            <!-- Present Occupation -->
+            <div class="form-group">
+                <label for="occupation">Present Occupation</label>
+                <input type="text" class="form-control" id="occupation" name="occupation" required>
+            </div>
+
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+
+            <!-- Profile Photo Upload -->
+            <div class="form-group">
+                <label for="profilePhoto">Profile Photo Upload</label>
+                <input type="file" class="form-control-file" id="profilePhoto" name="profilePhoto" accept="image/*" required>
+            </div>
+
+            <!-- Linked Profile Link -->
+            <div class="form-group">
+                <label for="linkedIn">LinkedIn Profile Link</label>
+                <input type="text" class="form-control" id="linkedIn" name="linkedIn">
+            </div>
+
+            <!-- Twitter Link -->
+            <div class="form-group">
+                <label for="twitter">Twitter Profile Link</label>
+                <input type="text" class="form-control" id="twitter" name="twitter">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
